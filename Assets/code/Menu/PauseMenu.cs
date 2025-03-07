@@ -6,11 +6,11 @@ public class PauseMenu : MonoBehaviour
     // Name der neuen Szene, die du laden möchtest
     public string sceneName = "Main"; // Passe diesen Namen an die gewünschte Szene an
 
-    void Start()
-    {
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.None;
-    }
+//    void Start()
+  //  {
+  //      Cursor.visible = true;
+  //      Cursor.lockState = CursorLockMode.None;
+  //  }
 
     void Update()
     {
