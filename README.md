@@ -9,7 +9,7 @@
 ![Screenshot 2025-02-28 152914](https://github.com/user-attachments/assets/2cbeb5e7-3712-41f1-9a56-c7ae8c9a96d1)
 -
 
--Code wird von ChatGPT erstellt und
- optimiert durch mich
+- Code wird von ChatGPT erstellt und
+  optimiert durch mich
 
 
