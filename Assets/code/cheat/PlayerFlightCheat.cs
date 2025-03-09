@@ -66,7 +66,11 @@ public class PlayerFlightCheat : MonoBehaviour
         if (Input.GetKey(KeyCode.Space)) vertical = 1f;  // Steigen mit `Space`
         if (Input.GetKey(KeyCode.LeftShift)) vertical = -1f; // Sinken mit `Shift`
 
-        Vector3 moveDirection = transform.forward * flightSpeed * Time.deltaTime;
+        float horizontal = 0f;
+        if (Input.GetKey(KeyCode.W)) horizontal = 1f;  // Move forward with `W`
+        if (Input.GetKey(KeyCode.S)) horizontal = -1f; // Move backward with `S`
+
+        Vector3 moveDirection = transform.forward * horizontal * flightSpeed * Time.deltaTime;
         rb.linearVelocity = new Vector3(moveDirection.x, vertical * flightSpeed, moveDirection.z);
     }
 }
