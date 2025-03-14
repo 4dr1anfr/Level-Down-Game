@@ -2,7 +2,7 @@
 - Es ist in bearbeitung 
 
 - Es ist eine Art "Jump and Run"
-- 
+
 
 ![Screenshot 2025-02-28 152731](https://github.com/user-attachments/assets/291672c4-b87b-41f7-a2dc-653500df35c8)
 -
